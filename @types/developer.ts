@@ -18,13 +18,14 @@ declare global  {
       title: string;
       description: string;
       achievements: string[];
-      technologies?: Technology;
+      technologies?: Technology[];
     }[];
     projects: {
       title: string;
+      description: string;
       links?: string;
       achievements?: string[];
-    }
+    }[];
   }
 }
 
