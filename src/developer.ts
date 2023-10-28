@@ -25,6 +25,10 @@ export const developer: Developer = {
       value: 5,
     },
   ],
+  education: {
+    title: 'Bachelors degree in Duck Engineering',
+    year: 2016
+  },
   experience: [
     {
       title: 'Duck Engineer',

@@ -1,5 +1,6 @@
 import { Technologies }  from '@/components/Technologies';
 import { DeveloperInformation }  from '@/components/DeveloperInformation';
+import { Education }  from '@/components/Education';
 
 import { DeveloperContext } from '@/context/developer';
 
@@ -14,6 +15,7 @@ export default function Home() {
       <DeveloperContext.Provider value={developer}>
         <DeveloperInformation />
         <Technologies />
+        <Education />
       </DeveloperContext.Provider>
     </main>
   )
