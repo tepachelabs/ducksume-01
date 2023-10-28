@@ -12,18 +12,6 @@ export const developer: Developer = {
       name: 'TypeScript',
       value: 5,
     },
-    {
-      name: 'Next',
-      value: 5,
-    },
-    {
-      name: 'Next',
-      value: 5,
-    },
-    {
-      name: 'Next',
-      value: 5,
-    },
   ],
   education: {
     title: 'Bachelors degree in Duck Engineering',
@@ -34,8 +22,26 @@ export const developer: Developer = {
       title: 'Duck Engineer',
       description: 'As a duck engineer, I\'ve optimized pond navigation, built billing systems for duck-themed e-commerce, and crafted a duck-exclusive social network.',
       achievements: [
-        'Optimize Billing Systems: Streamline billing processes, enhance transaction security, and implement dynamic pricing strategies.',
-        'Enhance Pond Navigation: Continuously improve pathfinding algorithms to make duck navigation even more efficient and adaptable.',
+        'Optimize Billing Systems: **Streamline billing** processes, enhance transaction security, and implement **dynamic pricing strategies**.',
+        'Enhance Pond Navigation: Continuously **improve pathfinding algorithms** to make duck navigation even more efficient and adaptable.',
+      ],
+      technologies: [
+        {
+          name: 'JavaScript',
+          value: 5,
+        },
+        {
+          name: 'Next',
+          value: 5,
+        },
+      ],
+    },
+    {
+      title: 'Duck Engineer',
+      description: 'As a duck engineer, I\'ve optimized pond navigation, built billing systems for duck-themed e-commerce, and crafted a duck-exclusive social network.',
+      achievements: [
+        'Optimize Billing Systems: **Streamline billing** processes, enhance transaction security, and implement **dynamic pricing strategies**.',
+        'Enhance Pond Navigation: Continuously **improve pathfinding algorithms** to make duck navigation even more efficient and adaptable.',
       ],
       technologies: [
         {
