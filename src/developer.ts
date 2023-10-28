@@ -1,4 +1,4 @@
-const developer: Developer = {
+export const developer: Developer = {
   title: 'Duck Engineer',
   name: 'Duckity Ducker',
   phone: '+1 9999999999',
