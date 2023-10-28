@@ -15,7 +15,15 @@ export const developer: Developer = {
     {
       name: 'Next',
       value: 5,
-    }
+    },
+    {
+      name: 'Next',
+      value: 5,
+    },
+    {
+      name: 'Next',
+      value: 5,
+    },
   ],
   experience: [
     {

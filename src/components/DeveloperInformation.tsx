@@ -1,9 +1,13 @@
 import { useContext } from 'react';
+
 import Image from 'next/image'
 
-import { DeveloperContext }  from '@/context/developer';
+import { Title } from '@/components/Title';
+import { BaseWrapper } from '@/components/layout/BaseWrapper';
+import { DeveloperContext } from '@/context/developer';
 
-const DeveloperInformation = () => {
+
+export const DeveloperInformation = () => {
   const {
     name,
     title,
@@ -12,7 +16,7 @@ const DeveloperInformation = () => {
   } = useContext(DeveloperContext);
 
   return (
-    <div className="flex">
+    <div className="w-full flex gap-2">
       <Image
         src="/duckveloper-image.jpeg"
         priority
@@ -20,16 +24,16 @@ const DeveloperInformation = () => {
         width="0"
         height="0"
         sizes="100vw"
-        className="w-60 h-auto"
+        className="w-60 h-60 border-black border-2 rounded-xl"
       />
-      <div>
-        <h1>{title}</h1>
-        <h2>{name}</h2>
-        <p>📱 {phone}</p>
-        <p>📧 {email}</p>
-      </div>
+      <BaseWrapper>
+        <div className="flex flex-col gap-1">
+          <Title>{title}</Title>
+          <h2 className="text-2xl">{name}</h2>
+          <p className="text-2xl">📱 {phone}</p>
+          <p className="text-2xl">📧 {email}</p>
+        </div>
+      </BaseWrapper>
     </div>
   )
 };
-
-export default DeveloperInformation;

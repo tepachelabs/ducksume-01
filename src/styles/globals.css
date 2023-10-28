@@ -15,3 +15,8 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+html, body, #__next, main {
+  height: 100%;
+  width: 100%;
+}
