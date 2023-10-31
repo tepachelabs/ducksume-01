@@ -61,8 +61,8 @@ export const developer: Developer = {
       description: 'DuckCafe was a digital platform that allowed ducks to discover and order their favorite aquatic delicacies while swimming in different ponds.',
       links: 'https://www.google.com',
       achievements: [
-        'I successfully designed a user interface that catered to duck preferences, ensuring that ducks of all ages and backgrounds could easily navigate the app.',
-        'I implemented a GPS feature that accurately located nearby ponds, streamlining the process of finding the nearest DuckCafe.',
+        'I successfully **designed a user interface that catered to duck preferences**, ensuring that ducks of all ages and backgrounds could easily navigate the app.',
+        'I **implemented a GPS feature** that accurately located nearby ponds, streamlining the process of **finding the nearest DuckCafe**.',
       ]
     },
     {
@@ -70,8 +70,8 @@ export const developer: Developer = {
       description: 'DuckCafe was a digital platform that allowed ducks to discover and order their favorite aquatic delicacies while swimming in different ponds.',
       links: 'https://www.google.com',
       achievements: [
-        'I successfully designed a user interface that catered to duck preferences, ensuring that ducks of all ages and backgrounds could easily navigate the app.',
-        'I implemented a GPS feature that accurately located nearby ponds, streamlining the process of finding the nearest DuckCafe.',
+        'I successfully **designed a user interface that catered to duck preferences**, ensuring that ducks of all ages and backgrounds could easily navigate the app.',
+        'I **implemented a GPS feature** that accurately located nearby ponds, streamlining the process of **finding the nearest DuckCafe**.',
       ]
     }
   ]

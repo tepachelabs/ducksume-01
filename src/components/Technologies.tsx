@@ -6,7 +6,6 @@ import { DeveloperContext } from '@/context/developer';
 import { repeatCharacter } from '@/utils/general';
 import { RATE_EMOJI } from '@/utils/constants';
 
-
 export const Technologies = () => {
   const { technologies} = useContext(DeveloperContext);
 

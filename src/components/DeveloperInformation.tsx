@@ -16,7 +16,7 @@ export const DeveloperInformation = () => {
   } = useContext(DeveloperContext);
 
   return (
-    <div className="w-full flex gap-2">
+    <div className="w-full flex gap-2 flex-col md:flex-row">
       <Image
         src="/duckveloper-image.jpeg"
         priority
@@ -24,7 +24,7 @@ export const DeveloperInformation = () => {
         width="0"
         height="0"
         sizes="100vw"
-        className="w-60 h-60 border-black border-2 rounded-xl"
+        className="w-60 h-60 border-black border-2 self-center rounded-full md:rounded-xl"
       />
       <BaseWrapper>
         <div className="flex flex-col gap-1">
