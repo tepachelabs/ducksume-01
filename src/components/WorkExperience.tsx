@@ -1,11 +1,13 @@
 import {useContext} from "react";
 
+import {List} from "@/components/layout/List";
+import {Stack} from "@/components/layout/Stack";
 import {Section} from "@/components/layout/Section";
-import {BoldString} from "@/components/layout/BoldText";
 
 import {DeveloperContext} from "@/context/developer";
-import {repeatCharacter} from "@/utils/general";
+
 import {RATE_EMOJI} from "@/utils/constants";
+import {repeatCharacter} from "@/utils/general";
 
 export const WorkExperience = () => {
   const { experience} = useContext(DeveloperContext);
@@ -14,23 +16,12 @@ export const WorkExperience = () => {
     <Section title="Work Experience">
       {
         experience.map((experience, index) => (
-          <div
-            key={index}
-            className="flex flex-col gap-4"
-          >
+          <Stack key={index}>
             <h2 className="text-2xl font-bold">
               {experience.title}
             </h2>
             <p>{experience.description}</p>
-            <ul className="list-disc list-inside">
-              {experience.achievements.map((achievement) => (
-                <div key={achievement}>
-                  <li>
-                    <BoldString text={achievement} />
-                  </li>
-                </div>
-              ))}
-            </ul>
+            <List list={experience.achievements} />
             {
               experience.technologies ? (
                 <div>
@@ -48,7 +39,7 @@ export const WorkExperience = () => {
                 </div>
               ) : null
             }
-          </div>
+          </Stack>
         ))
       }
     </Section>

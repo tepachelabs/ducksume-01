@@ -1,6 +1,6 @@
 import { FC, PropsWithChildren } from 'react';
 
-import { Title } from "@/components/Title";
+import { Title } from "@/components/layout/Title";
 import { BaseWrapper } from '@/components/layout/BaseWrapper';
 
 interface Props extends PropsWithChildren {

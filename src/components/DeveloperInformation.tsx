@@ -2,7 +2,7 @@ import { useContext } from 'react';
 
 import Image from 'next/image'
 
-import { Title } from '@/components/Title';
+import { Title } from '@/components/layout/Title';
 import { BaseWrapper } from '@/components/layout/BaseWrapper';
 import { DeveloperContext } from '@/context/developer';
 
